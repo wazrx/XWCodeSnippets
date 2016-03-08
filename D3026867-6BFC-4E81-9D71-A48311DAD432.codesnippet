@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>myweakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;UICollectionViewDelegate&gt;</string>
+	<string>typeof(self)weakSelf = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E30FB394-96C8-4E51-A6DE-C08F91E5C00F</string>
+	<string>D3026867-6BFC-4E81-9D71-A48311DAD432</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>myweakself</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>myweakself</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>Markinitialize</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;UICollectionViewDelegate&gt;</string>
+	<string>#pragma mark - initialize methods</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E30FB394-96C8-4E51-A6DE-C08F91E5C00F</string>
+	<string>E8200419-96CB-468B-846E-D138AE0818D0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>Markinitialize</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>Markinitialize</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

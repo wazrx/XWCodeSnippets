@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>myWindow</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;UICollectionViewDelegate&gt;</string>
+	<string>#pragma mark - lazyLoding
+
+- (UIWindow *)window{
+    if (!_window) {
+        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    }
+    [_window makeKeyAndVisible];
+    return _window;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E30FB394-96C8-4E51-A6DE-C08F91E5C00F</string>
+	<string>B562A2D6-6655-4E50-AAB7-CB9065D515AF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>myWindow</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>myWindow</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

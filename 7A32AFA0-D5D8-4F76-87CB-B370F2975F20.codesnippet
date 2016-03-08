@@ -9,7 +9,17 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;UITabelViewDataSource&gt;</string>
+	<string>#pragma mark - &lt;UITabelViewDataSource&gt;
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.data.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    &lt;#cellClass#&gt; *cell = [&lt;#cellClass#&gt; cellWithTableView:tableView];
+    cell.data = _data[indexPath.row];
+    return cell;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7A32AFA0-D5D8-4F76-87CB-B370F2975F20</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +31,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

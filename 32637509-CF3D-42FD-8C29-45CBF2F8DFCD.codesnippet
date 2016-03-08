@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>MyTableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;UICollectionViewDelegate&gt;</string>
+	<string>UITableView *&lt;#name#&gt; = [UITableView new];
+    &lt;#name#&gt;.delegate = self;
+    &lt;#name#&gt;.dataSource = self;
+    &lt;#name#&gt;.separatorStyle = UITableViewScrollPositionNone;
+    &lt;#name#&gt;.rowHeight = &lt;#rowHeight#&gt;;
+    [self.view addSubview:&lt;#name#&gt;];
+    [mainView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.&lt;#masonry#&gt;
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E30FB394-96C8-4E51-A6DE-C08F91E5C00F</string>
+	<string>32637509-CF3D-42FD-8C29-45CBF2F8DFCD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>MyTableView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>MyTableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
