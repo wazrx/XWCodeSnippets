@@ -3,25 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Markinitialize</string>
+	<string>myimageview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - initialize methods
-
-- (void)xwp_initailizeUI{
-    
-}</string>
+	<string> UIImageView *&lt;#name#&gt; = [UIImageView new];
+    &lt;#name#&gt;.image = [UIImage imageNamed:&lt;#name#&gt;];
+    [&lt;#name#&gt; addSubview:&lt;#name#&gt;];
+    [&lt;#name#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(&lt;#value#&gt; * widthRatio, &lt;#value#&gt; * widthRatio));
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8200419-96CB-468B-846E-D138AE0818D0</string>
+	<string>276574EB-D5FD-4D44-B9DF-C05B79239B9A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Markinitialize</string>
+	<string>myimageview</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Markinitialize</string>
+	<string>myimageview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

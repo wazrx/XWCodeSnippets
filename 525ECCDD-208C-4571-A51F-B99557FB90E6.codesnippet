@@ -3,25 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Markinitialize</string>
+	<string>mylabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - initialize methods
-
-- (void)xwp_initailizeUI{
-    
-}</string>
+	<string>UILabel *&lt;#name#&gt; = [UILabel new];
+    &lt;#name#&gt;.text = &lt;#value#&gt;;
+    &lt;#name#&gt;.font = Font(&lt;#value#&gt; * widthRatio);
+    &lt;#name#&gt;.textColor = [UIColor whiteColor];
+    [&lt;#name#&gt; addSubview:&lt;#name#&gt;];
+    [&lt;#name#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+        &lt;#name#&gt;
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8200419-96CB-468B-846E-D138AE0818D0</string>
+	<string>525ECCDD-208C-4571-A51F-B99557FB90E6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Markinitialize</string>
+	<string>mylabel</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Markinitialize</string>
+	<string>mylabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

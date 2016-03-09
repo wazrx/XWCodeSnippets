@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Markinitialize</string>
+	<string>markpublic</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - initialize methods
-
-- (void)xwp_initailizeUI{
-    
-}</string>
+	<string>#pragma mark - public methods</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8200419-96CB-468B-846E-D138AE0818D0</string>
+	<string>F22DF179-06C7-42AA-91DC-780362F29904</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Markinitialize</string>
+	<string>markpublic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Markinitialize</string>
+	<string>markpublic</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,28 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Markinitialize</string>
+	<string>tcellh</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - initialize methods
+	<string>@class &lt;#model#&gt;;
 
-- (void)xwp_initailizeUI{
-    
-}</string>
+@interface &lt;#class#&gt; : UITableViewCell
+
+@property (nonatomic, strong) &lt;#model#&gt; *data;
+
++ (instancetype)xw_cellWithTableView:(UITableView *)tableView;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8200419-96CB-468B-846E-D138AE0818D0</string>
+	<string>2F69D4D4-4035-4D1A-9BE6-2D6ECABF8614</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Markinitialize</string>
+	<string>tcellh</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Markinitialize</string>
+	<string>tcellh</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

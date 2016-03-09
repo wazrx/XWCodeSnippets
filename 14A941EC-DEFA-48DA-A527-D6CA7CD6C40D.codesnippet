@@ -9,7 +9,17 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;UICollectionViewDataSouce&gt;</string>
+	<string>#pragma mark - &lt;UICollectionViewDataSouce&gt;
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return self.data.count;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    &lt;#class#&gt; *cell = [collectionView dequeueReusableCellWithReuseIdentifier:&lt;#value#&gt; forIndexPath:indexPath];
+    cell.data = _data[indexPath.item];
+    return cell;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>14A941EC-DEFA-48DA-A527-D6CA7CD6C40D</string>
 	<key>IDECodeSnippetLanguage</key>

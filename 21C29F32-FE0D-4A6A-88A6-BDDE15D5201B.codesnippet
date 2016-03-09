@@ -3,25 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Markinitialize</string>
+	<string>mytableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - initialize methods
-
-- (void)xwp_initailizeUI{
-    
-}</string>
+	<string>UITableView *&lt;#name#&gt; = [UITableView new];
+_&lt;#name#&gt; = &lt;#name#&gt;;
+&lt;#name#&gt;.delegate = self;
+&lt;#name#&gt;.dataSource = self;
+&lt;#name#&gt;.backgroundColor = &lt;#value#&gt;;
+&lt;#name#&gt;.rowHeight = &lt;#value#&gt; * widthRatio;
+[&lt;#name#&gt; addSubview:&lt;#name#&gt;];
+[&lt;#name#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+    &lt;#code#&gt;
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8200419-96CB-468B-846E-D138AE0818D0</string>
+	<string>21C29F32-FE0D-4A6A-88A6-BDDE15D5201B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Markinitialize</string>
+	<string>mytableView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Markinitialize</string>
+	<string>mytableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
