@@ -3,32 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>myWindow</string>
+	<string>MyStrong</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - lazyLoding
-
-- (UIWindow *)window{
-    if (!_window) {
-        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    }
-    [_window makeKeyAndVisible];
-    return _window;
-}</string>
+	<string>@property (nonatomic, strong) &lt;#type#&gt; *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B562A2D6-6655-4E50-AAB7-CB9065D515AF</string>
+	<string>6CDF17F2-5F08-4E1B-B897-F6A97C78027B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>myWindow</string>
+	<string>MyStrong</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>myWindow</string>
+	<string>MyStrong</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MyAssign</string>
+	<string>ViewH</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@class &lt;#viewModelType#&gt;;
+@interface &lt;#viewTypeName#&gt; : UIView
++ (&lt;#viewTypeName#&gt; *)xw_viewWithViewModel:(&lt;#viewModelType#&gt; *)viewModel;
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8D6A11A2-2065-4501-B52F-DCC637741812</string>
+	<string>25F67219-1BDD-4090-8D68-7EC6BD7FF205</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MyAssign</string>
+	<string>ViewH</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MyAssign</string>
+	<string>ViewH</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tcellh</string>
+	<string>MyCopy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@class &lt;#model#&gt;;
-
-@interface &lt;#class#&gt; : UITableViewCell
-
-@property (nonatomic, strong) &lt;#model#&gt; *data;
-
-+ (instancetype)xw_cellWithTableView:(UITableView *)tableView;</string>
+	<string>@property (nonatomic, copy) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F69D4D4-4035-4D1A-9BE6-2D6ECABF8614</string>
+	<string>C0F98175-BC41-4A8A-9945-DD2E17BE019B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tcellh</string>
+	<string>MyCopy</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tcellh</string>
+	<string>MyCopy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

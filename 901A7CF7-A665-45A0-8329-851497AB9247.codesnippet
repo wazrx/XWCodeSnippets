@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>MyNonnull</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;UICollectionViewDelegate&gt;</string>
+	<string>@property (nonnull, nonatomic, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E30FB394-96C8-4E51-A6DE-C08F91E5C00F</string>
+	<string>901A7CF7-A665-45A0-8329-851497AB9247</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>MyNonnull</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MarkCollectionViewDelegate</string>
+	<string>MyNonnull</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

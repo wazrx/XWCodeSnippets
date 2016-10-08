@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ViewControllerM</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#import "&lt;#view.h#&gt;"
+#import "&lt;#viewModel.h#&gt;"
+#import "XWCatergory.h"
+
+@interface &lt;#controllerName#&gt; ()
+@property (nonatomic, strong) &lt;#viewType#&gt; *view;
+@property (nonatomic, strong) &lt;#viewModelType#&gt; *viewModel;
+@end
+
+@implementation &lt;#controllerName#&gt;
+@dynamic view;
+
+#pragma mark - Life Cycle Methods
+
+- (void)loadView{
+    self.view = [&lt;#viewType#&gt; xw_viewWithViewModel:(&lt;#viewModelType#&gt; *)self.viewModel];
+    self.view.frame = kScreenBounds;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
+#pragma mark - Lazyloading Methods
+
+- (&lt;#viewModelType#&gt;)viewModel{
+    if (_viewModel) return _viewModel;
+    return _viewModel;
+}
+
+#pragma mark - Privite Methods
+
+#pragma mark - Public Methods
+
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>873F53AF-675E-4CB3-A609-E751B104FFAD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ViewControllerM</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewControllerM</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

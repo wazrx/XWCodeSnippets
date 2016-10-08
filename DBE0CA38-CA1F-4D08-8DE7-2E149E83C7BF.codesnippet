@@ -3,33 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mytableView</string>
+	<string>MyAssign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UITableView *&lt;#name#&gt; = [UITableView new];
-_&lt;#name#&gt; = &lt;#name#&gt;;
-&lt;#name#&gt;.delegate = self;
-&lt;#name#&gt;.dataSource = self;
-&lt;#name#&gt;.backgroundColor = &lt;#value#&gt;;
-&lt;#name#&gt;.rowHeight = &lt;#value#&gt; * widthRatio;
-[&lt;#name#&gt; addSubview:&lt;#name#&gt;];
-[&lt;#name#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-    &lt;#code#&gt;
-}];</string>
+	<string>@property (assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21C29F32-FE0D-4A6A-88A6-BDDE15D5201B</string>
+	<string>DBE0CA38-CA1F-4D08-8DE7-2E149E83C7BF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mytableView</string>
+	<string>MyAssign</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mytableView</string>
+	<string>MyAssign</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

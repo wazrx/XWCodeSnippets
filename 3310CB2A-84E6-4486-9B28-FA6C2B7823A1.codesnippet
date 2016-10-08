@@ -3,31 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mylabel</string>
+	<string>MyReadOnly-nonatamic</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UILabel *&lt;#name#&gt; = [UILabel new];
-    &lt;#name#&gt;.text = &lt;#value#&gt;;
-    &lt;#name#&gt;.font = Font(&lt;#value#&gt; * widthRatio);
-    &lt;#name#&gt;.textColor = [UIColor whiteColor];
-    [&lt;#name#&gt; addSubview:&lt;#name#&gt;];
-    [&lt;#name#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-        &lt;#name#&gt;
-    }];</string>
+	<string>@property (nonatomic, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>525ECCDD-208C-4571-A51F-B99557FB90E6</string>
+	<string>3310CB2A-84E6-4486-9B28-FA6C2B7823A1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mylabel</string>
+	<string>MyReadOnly-nonatamic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mylabel</string>
+	<string>MyReadOnly-nonatamic</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

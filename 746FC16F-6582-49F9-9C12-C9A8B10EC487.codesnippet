@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ViewM</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#import "&lt;#viewModel.h#&gt;"
+#import "XWCatergory.h"
+#import "UIView+XWAddForMasonry.h"
+
+@implementation XWTestView
+
+#pragma mark - Initailize Methods
+
++ (&lt;#viewName#&gt; *)xw_viewWithViewModel:(&lt;#viewName#&gt; *)viewModel{
+    return [[self alloc] _initWithViewModel:viewModel];
+}
+
+- (instancetype)_initWithViewModel:(NSObject *)viewModel{
+    self = [super init];
+    if (!self) return nil;
+    [self _xw_initailizeUI];
+    return self;
+}
+
+- (void)_xw_initailizeUI{
+    self.backgroundColor = &lt;#WhitC#&gt;;
+}
+
+#pragma mark - Update Methods
+
+
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>746FC16F-6582-49F9-9C12-C9A8B10EC487</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ViewM</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewM</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

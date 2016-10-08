@@ -3,29 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>myimageview</string>
+	<string>MyNullable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> UIImageView *&lt;#name#&gt; = [UIImageView new];
-    &lt;#name#&gt;.image = [UIImage imageNamed:&lt;#name#&gt;];
-    [&lt;#name#&gt; addSubview:&lt;#name#&gt;];
-    [&lt;#name#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.size.mas_equalTo(CGSizeMake(&lt;#value#&gt; * widthRatio, &lt;#value#&gt; * widthRatio));
-    }];</string>
+	<string>@property (nullable, nonatomic, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>276574EB-D5FD-4D44-B9DF-C05B79239B9A</string>
+	<string>E2AA42F9-477F-4ACB-89B3-14D452A3162F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>myimageview</string>
+	<string>MyNullable</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>myimageview</string>
+	<string>MyNullable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
